@@ -18,21 +18,21 @@ body{
       );
       color:white;
       padding: 12px;
-      border:none;
+      border: none;
       border-radius: 6px;
       cursor: pointer; 
 }
 
 .container{
-    width:100%;
-    margin:0 auto;
-    padding:0 15px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .navbar{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navbar__brand{
@@ -40,24 +40,24 @@ body{
 }
 
 .navbar__logo{
-    width:100%;
+    width: 100%;
 }
 
 .hero__container{
-    width:100%;
+    width: 100%;
 }
 .hero__image__container{
-    width:100%;
+    width: 100%;
 }
 
 .hero__image{
-    width:100%;
+    width: 100%;
 }
 
 .hero__text{
-    font-size:30px;
-    color:#1d3557;
-    margin:20px 0; 
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0; 
 }
 
 /* menu styles */
@@ -66,20 +66,20 @@ body{
     margin-top: 50px;
 }
 .explore__menu__text{
-    font-size:30px;
-    color:#1d3557;
-    margin:20px 0;
-    text-align:center;
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+    text-align: center;
 }
 .food__menu__card:{
-    width:100%;
-    background-color:white;
-    border-radius:8px;
-    margin:15px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px;
 }
 .food__image{
-    width:100%;
-    border-radius:8px 8px 0 0;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
 }
 
 .food__menu__card__description{
@@ -91,24 +91,35 @@ body{
     justify-content: center;
 }
 
+
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
-        padding:10px 20px;
+        padding: 10px 20px;
     }
     .navbar__brand{
-        width:150px;
+        width: 150px;
     }
     .primary__button{
         padding: 12px 20px;
-        font-size:20px;
+        font-size: 20px;
     }
     .hero__container{
-        display:flex;
+        display: flex;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        gap:10px;
+        gap: 10px;
+    }
+    .explore__menu__lists{
+        margin-top: 30px;
+        display: flex;
+        gap: 8px;
+    }
+    
+    #pizza__card{
+        margin-top: -20px;
+        margin-bottom:30px;
     }
 }
 @media (min-width: 1020px){
